@@ -11,4 +11,4 @@ RUN bundle install
 
 EXPOSE 80
 
-CMD ruby main.rb
+ENTRYPOINT $APP_HOME/entrypoint.sh
