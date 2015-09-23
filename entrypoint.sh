@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#keep the container running without Sinatra
 while true
 do
     sleep 1
